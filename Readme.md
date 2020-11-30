@@ -4,11 +4,14 @@
 
   Check out this interesting CLI quiz here:
   Play Quiz: [Do_You_Know_Me](https://repl.it/@Jaynil/DoYouKnowJaynil?embed=1&output=1)
-  Quiz Code: [Github]()
+  Quiz Code: [Github](https://github.com/Jaynil1611/LevelZero/blob/master/LevelZero_Assignments/Do_You_Know_Jaynil.js)
   Note: Click the green play button on the bottom right of your screen.
 
   ### Screenshots
-  
+  ![Quiz1_1](https://github.com/Jaynil1611/LevelZero/blob/master/screenshots/Quiz1_1.png)
+  ![Quiz1_2](https://github.com/Jaynil1611/LevelZero/blob/master/screenshots/Quiz1_2.png)
+  ![Quiz1_3](https://github.com/Jaynil1611/LevelZero/blob/master/screenshots/Quiz1_3.png)
+
 - ## Football_Riddles (Who Am I ?)
   This is again another interesting quiz app which tests your depth of knowledge in the sport of football. It includes various brain teasers and riddles related to football's history.
 
@@ -16,10 +19,14 @@
 
   Check out this interesting CLI quiz here:
   Play Quiz: [Do_You_Know_Me](https://repl.it/@Jaynil/FootballRiddles?embed=1&output=1)
-  Quiz Code: [Github]()
+  Quiz Code: [Github](https://github.com/Jaynil1611/LevelZero/blob/master/LevelZero_Assignments/Football_Riddle.js)
   Note: Click the green play button on the bottom right of your screen.
 
   ## Screenshots
+  ![Quiz2_1](https://github.com/Jaynil1611/LevelZero/blob/master/screenshots/Quiz2_1.png)
+  ![Quiz2_2](https://github.com/Jaynil1611/LevelZero/blob/master/screenshots/Quiz2_2.png)
+  ![Quiz2_3](https://github.com/Jaynil1611/LevelZero/blob/master/screenshots/Quiz2_3.png)
+  ![Quiz2_4](https://github.com/Jaynil1611/LevelZero/blob/master/screenshots/Quiz2_4.png)
 
 ## Technology & Librariers Used
 - JavaScript
