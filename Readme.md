@@ -3,8 +3,11 @@
   This CLI quiz app is aimed to check your knowledge about myself. It has 5 questions related my personal choices and things which I do everyday. The quiz is hosted using [Repl.it](https://repl.it/)
 
   Check out this interesting CLI quiz here:
+  
   Play Quiz: [Do_You_Know_Me](https://repl.it/@Jaynil/DoYouKnowJaynil?embed=1&output=1)
+
   Quiz Code: [Github](https://github.com/Jaynil1611/LevelZero/blob/master/LevelZero_Assignments/Do_You_Know_Jaynil.js)
+
   Note: Click the green play button on the bottom right of your screen.
 
   ### Screenshots
@@ -13,13 +16,14 @@
   ![Quiz1_3](https://github.com/Jaynil1611/LevelZero/blob/master/screenshots/Quiz1_3.png)
 
 - ## Football_Riddles (Who Am I ?)
-  This is again another interesting quiz app which tests your depth of knowledge in the sport of football. It includes various brain teasers and riddles related to football's history.
-
-  The quiz is hosted using [Repl.it](https://repl.it/)
+  This is again another interesting quiz app which tests your depth of knowledge in the sport of football. It includes various brain teasers and riddles related to football's history. The quiz is hosted using [Repl.it](https://repl.it/)
 
   Check out this interesting CLI quiz here:
-  Play Quiz: [Do_You_Know_Me](https://repl.it/@Jaynil/FootballRiddles?embed=1&output=1)
+
+  Play Quiz: [Who Am I ?](https://repl.it/@Jaynil/FootballRiddles?embed=1&output=1)
+
   Quiz Code: [Github](https://github.com/Jaynil1611/LevelZero/blob/master/LevelZero_Assignments/Football_Riddle.js)
+
   Note: Click the green play button on the bottom right of your screen.
 
   ## Screenshots
