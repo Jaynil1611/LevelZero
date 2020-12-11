@@ -11,38 +11,40 @@ var userName = readlineSync.question(normalText("\nPlease enter your good name: 
 
 console.log(headerColor("\nWelcome " + userName + "!"));
 
-var birthDate = readlineSync.question(normalText("\nPlease enter your date of birth in (DD/MM) form: \n"));
+var birthDate = readlineSync.question(normalText("\nPlease enter your date of birth in (DD/MM/YYY) form: \n"));
 
-var [day, month] = birthDate.split("/").map(str => +str);
+var [day, month, year] = birthDate.split("/").map(str => +str);
 
 
-if (day && month && checkDateValidity(day, month)) {
+if (day && month && checkDateValidity(day, month, year)) {
   console.log(normalText("\nYour birth date is: ") + scoreColor(" " + birthDate + " "));
 
-  if (checkPrime(day))
-    console.log(correct("\nCongo! Your birthdate is a Prime number.\n"));
+  if (checkLeapYear(year))
+    console.log(correct("\nCongo! You are born on a Leap Year\n"));
   else
-    console.log(incorrect("\nSorry! Your birthdate is not a Prime number.\n"));
+    console.log(incorrect("\nSorry! You are not born on a Leap Year\n"));
 }
 else
   console.log(incorrect("\nYou have entered an invalid date!\n"));
 
 
-function checkPrime(day) {
-  var isPrime = true;
-  if (day === 1)
-    return false;
+function checkLeapYear(year) {
+  var isLeap = false;
 
-  for (var i = 2; i <= day / 2; i++) {
-    if (day % i === 0) {
-      isPrime = false;
-      break;
-    }
-  }
-  return isPrime;
+  if (year % 400 === 0)
+    isLeap = true;
+  else if (year % 100 === 0)
+    isLeap = false;
+  else if (year % 4 === 0)
+    isLeap = true;
+
+  return isLeap;
 }
 
-function checkDateValidity(day, month) {
+function checkDateValidity(day, month, year) {
+  if (year > 2020)
+    return false;
+
   var isValid = false;
   if (day >= 1 && day <= 31 && month >= 1 && month <= 12) {
     isValid = true;
